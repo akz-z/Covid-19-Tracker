@@ -1,0 +1,29 @@
+.map{
+    height: 500px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+.map .leaflet-container{
+    height: 100%;
+}
+
+.popup_flag{
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.popup_cname{
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.popup_cases{
+    margin-bottom: 2px;
+}
+.popup_recover{
+    margin-bottom: 2px;
+}

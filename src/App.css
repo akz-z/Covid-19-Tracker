@@ -1,0 +1,46 @@
+
+
+*{
+  margin: 0;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.app_header{
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  font-family: 'Langar', cursive;
+  justify-content: space-between;
+}
+.app__left
+{
+  flex: 0.9;
+}
+
+.info__stats{
+  display: flex;
+  justify-content: space-between;
+  
+}
+body{
+  background-color:#d5efe9;
+}
+
+.h2{
+  margin-top: 48px;
+  margin-bottom:  -9px;
+  font-family: 'Langar', cursive;
+}
+.h1{
+  font-family: 'Langar', cursive;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
